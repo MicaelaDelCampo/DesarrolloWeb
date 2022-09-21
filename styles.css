@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     margin: 0%;
     padding: 0;
@@ -17,6 +21,13 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.nav__logo {
+    width: 80px;
+    height: 70px;
+    padding-left: 2rem;
+    padding-top: 5px;
 }
 
 .nav__lista {
@@ -242,4 +253,9 @@ body {
     border-radius: 20px;
     width: 80rem;
     height: 15rem;
+}
+
+.footer {
+    width: 100%;
+    height: 50rem;
 }
