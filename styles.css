@@ -229,8 +229,6 @@ body {
     flex-direction: column;
 }
 
-
-
 .seccion__destinos__container {
     display: grid;
     padding-bottom: 4rem;
@@ -261,7 +259,6 @@ body {
     align-content: center;
     display: flex;
     flex-direction: column;
-    padding: 4%;
 }
 
 .seccion__testimonials__caja {
@@ -271,7 +268,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-right: 7%;
-    padding-bottom: 7%;
+    padding-bottom: 4%;
     padding-left: 7%;
 }
 
@@ -309,6 +306,14 @@ body {
 
 .seccion__epigrafe__video{
     padding-bottom: 2rem;
+}
+.seccion__hotels{
+    background-color: rgba(226, 214, 196, 0.35);
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
 }
 
 .seccion__hotels__list{
