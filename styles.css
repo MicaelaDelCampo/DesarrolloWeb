@@ -19,7 +19,7 @@ body {
     background: rgba(0, 0, 0, 0.12);
     opacity: 0.9;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
@@ -41,7 +41,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: .8em;
-    padding: 10px 15px;
+    padding: 10px 10px;
     font-weight: bold;
     transition: transform .5s ease;
     text-align: center;
@@ -98,17 +98,17 @@ body {
     position: absolute;
     display: block;
     color: #FFFFFF;
-    width: 700px;
-    height: 233px;
-    left: 43px;
-    top: 240px;
+    width: 250px;
+    height: 50px;
+    left: 20px;
+    top: 130px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: bold;
     font-weight: 700;
-    font-size: 70px;
-    line-height: 100%;
+    font-size: 2.4rem;
     color: #FFFFFF;
     text-shadow: 2px 2px 8px #00000053;
+    margin: 0%;
 }
 
 .nav__titulo__color {
@@ -133,15 +133,16 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 2rem;
     color: #0CBAD3;
     text-align: center;
-    margin: .5rem;
+    margin: 0%;
+    padding-bottom: 1rem;
 }
 
 .titulo__italic__bold {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 15px;
     margin: 0%;
 }
 .parrafo {
@@ -159,7 +160,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 12px;
     color: #000000;
     text-align: center;
     padding: 0%;
@@ -172,13 +173,13 @@ body {
     color: #FFFFFF;
     background-color: #0CBAD3;
     border: none;
-    width: 170px;
-    height: 50px;
+    width: 80px;
+    height: 25px;
     margin: 2%;
     font-weight: bold;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -186,7 +187,7 @@ body {
 }
 
 .seccion__texto {
-    padding: 2%;
+    padding: 4%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -198,22 +199,23 @@ body {
     display: flex;
     padding-inline: 8rem;
     background-color: rgba(226, 214, 196, 0.35);
-    padding-bottom: 2rem;
     flex-direction: column;
+    align-items: center;
 }
 
 .seccion__intro__columnas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2.5rem;
+    margin: 1rem;
+    width: 250px;
+    height: 2;
+    padding: 2rem;
     border-style: solid;
     border-radius: 2rem;
     border-color: #FFFFFF;
     border-width: 0.5rem;
+    align-content: center;
 }
 
 .seccion__destinos {
@@ -221,25 +223,26 @@ body {
     align-content: center;
     display: flex;
     flex-direction: column;
+    padding: 4%;
 }
 
 .seccion__destinos__container {
     display: grid;
-    padding-bottom: 4rem;
     grid-column: 1fr;
     grid-template-columns: .4fr .4fr;
     grid-template-rows: 1.1fr;
     justify-items: center;
     align-items: center;
-    grid-row-gap: 30px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
     justify-content: center;
     align-items: space-between;
 }
 
 .seccion__destinos__img {
-    border-radius: 20px;
-    width: 30rem;
-    height: 20rem;
+    border-radius: 10px;
+    width: 15rem;
+    height: 12rem;
     transition: transform .5s ease-in-out;
 }
 
@@ -254,6 +257,7 @@ body {
     align-content: center;
     display: flex;
     flex-direction: column;
+    padding: 4%;
 }
 
 .seccion__testimonials__caja {
@@ -262,9 +266,9 @@ body {
     align-content: center;
     flex-direction: column;
     align-items: center;
-    padding-right: 7%;
-    padding-bottom: 4%;
-    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
 }
 
 .seccion__experiences {
@@ -272,23 +276,20 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 50PX;
-    PADDING-BOTTOM: 30PX;
-    PADDING-top: 10PX;
+    padding: 4%;
 }
 
 .seccion__experiences__container{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 4rem;
-    PADDING-BOTTOM: 2rem;
+    gap: 2rem;
 }
 
 
 .seccion__experiences__img {
     border-radius: 20px;
-    width: 80rem;
-    height: 15rem;
+    width: 35rem;
+    height: 6rem;
 }
 
 .video{
