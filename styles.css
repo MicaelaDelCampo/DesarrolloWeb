@@ -8,14 +8,14 @@ body {
 }
 
 .header {
-    height: 60rem;
+    height: 30rem;
 }
 
 .nav {
     position: absolute;
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 70px;
     background: rgba(0, 0, 0, 0.12);
     opacity: 0.9;
     align-items: center;
@@ -24,10 +24,8 @@ body {
 }
 
 .nav__logo {
-    width: 80px;
-    height: 70px;
-    padding-left: 2rem;
-    padding-top: 5px;
+    width: 40px;
+    height: 40px;
 }
 
 .nav__lista {
@@ -42,11 +40,11 @@ body {
     position: relative;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-size: 2em;
-    line-height: 2em;
+    font-size: .8em;
     padding: 10px 15px;
     font-weight: bold;
     transition: transform .5s ease;
+    text-align: center;
 }
 
 .nav__lista__items:hover{
@@ -61,7 +59,7 @@ body {
 
 .nav__banner__index {
     width: 100%;
-    height: 60rem;
+    height: 30rem;
     background-image: url(./IMG/\(1\).jpg);
     background-size: cover;
     background-position-x: center;
@@ -70,7 +68,7 @@ body {
 
 .nav__banner__destinations{
     width: 100%;
-    height: 60rem;
+    height: 30rem;
     background-image: url(./IMG/Avion.jpg);
     background-size: cover;
     background-position-x: center;
@@ -79,7 +77,7 @@ body {
 
 .nav__banner__experiences{
     width: 100%;
-    height: 60rem;
+    height: 30rem;
     background-image: url(./IMG/Experiences.png);
     background-size: cover;
     background-position-x: center;
@@ -120,29 +118,25 @@ body {
 
 .nav__titulo__pages{
     position: absolute;
-    display: block;
-    width: 700px;
-    height: 233px;
-    left: 43px;
-    top: 135px;
+    left: 20px;
+    top: 90px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: bold;
     font-weight: 700;
-    font-size: 70px;
-    line-height: 100%;
+    font-size: 30px;
     color: #ffffff;
     text-shadow: 2px 2px 8px #00000053;
+    margin: 0%;
 }
 
 .titulo__secundario {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 67px;
+    font-size: 25px;
     color: #0CBAD3;
     text-align: center;
-    margin: 1.5rem;
+    margin: .5rem;
 }
 
 .titulo__italic__bold {
@@ -154,7 +148,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 20px;
     color: #000000;
     text-align: center;
     padding: 0%;
@@ -165,7 +159,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 10px;
     color: #000000;
     text-align: center;
     padding: 0%;
@@ -298,9 +292,9 @@ body {
 }
 
 .video{
-    margin: 7rem;
-    height: 50rem;
-    width: 80rem;
+    margin: 4rem;
+    height: 20rem;
+    width: 30rem;
 }
 
 .seccion__epigrafe__video{
@@ -321,16 +315,16 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
-    padding-top: 4rem;    
+    gap: 2rem;
+    padding-top: 1rem;    
 }
 
 .seccion__hotels__list__container__blue{
     display: flex;
     background-color: #07668f94;
     border-radius: 20px;
-    height: 6rem;
-    width: 70rem;
+    height: 3rem;
+    width: 30rem;
     align-items: center;
     justify-content: center;
     transition: transform .5s ease-in-out;}
@@ -339,8 +333,8 @@ body {
         display: flex;
         background-color:#0cb8d398;
         border-radius: 20px;
-        height: 6rem;
-        width: 70rem;
+        height: 3rem;
+        width: 30rem;
         align-items: center;
         justify-content: center;
         transition: transform .5s ease-in-out;
@@ -359,7 +353,7 @@ body {
     justify-content: center;
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-shadow: 2px 2px 8px #00000053;
@@ -369,13 +363,21 @@ body {
 
 .seccion__somedestinations__container{
     display: grid;
-    gap: 4rem;
+    gap: 1rem;
     grid-template-columns: 1fr;
     justify-items: center;
     padding-bottom: 3rem;
 }
 
+.seccion__somedestinations__caja{
+    width: 300px;
+    height: 60px;
+}
 
+.seccion__somedestinations__img{
+    width: 300px;
+    height: 60px;
+}
 .footer {
     width: 100%;
     height: 50rem;
