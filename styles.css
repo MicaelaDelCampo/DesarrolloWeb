@@ -249,9 +249,10 @@ body {
     transition: transform .5s ease-in-out;
 }
 
-.seccion__destinos__img:hover{
-    transform: scale(1.1);
+.seccion__destinos__img:hover{transform: scale(1.1);
 }
+    
+    
 
 .seccion__testimonials{
     background-color: rgba(226, 214, 196, 0.35);
@@ -283,14 +284,12 @@ body {
 }
 
 .seccion__experiences__container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 50PX;
-    PADDING-BOTTOM: 30PX;
-    PADDING-top: 10PX;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    PADDING-BOTTOM: 2rem;
 }
+
 
 .seccion__experiences__img {
     border-radius: 20px;
@@ -333,7 +332,8 @@ body {
     height: 6rem;
     width: 70rem;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    transition: transform .5s ease-in-out;}
 
 .seccion__hotels__list__container__lgblue{
         display: flex;
@@ -343,7 +343,16 @@ body {
         width: 70rem;
         align-items: center;
         justify-content: center;
-    }
+        transition: transform .5s ease-in-out;
+}
+
+.seccion__hotels__list__container__lgblue:hover{
+        transform: scale(1.1);
+ }
+
+ .seccion__hotels__list__container__blue:hover{
+        transform: scale(1.1);
+}
 
 .seccion__hotels__items{
     display: flex;
@@ -357,6 +366,15 @@ body {
     padding: 4%;
 
 }
+
+.seccion__somedestinations__container{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-bottom: 3rem;
+}
+
 
 .footer {
     width: 100%;
