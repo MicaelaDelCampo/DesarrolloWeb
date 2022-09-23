@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Caribbean Blue</title>
     <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 </head>
 
 <body>
@@ -39,7 +42,7 @@
         <section class="seccion__texto">
             <h2 class="titulo__secundario">Lookig for the trip of your life?</h2>
             <p class="parrafo">Start your journey with Caribbean Blue!</p>
-            <a href="./CONTACT.html" class="button" target="_blank">CONTACT</a>
+            <a href="./CONTACT.html" class="my__button" target="_blank">CONTACT</a>
         </section>
         <section class="seccion__intro">
             <div class="seccion__intro__columnas">
@@ -47,14 +50,14 @@
                 <p class="parrafo">We are a travel agency that offers our clients custom and unforgettable travel
                     experiences in the
                     Caribbean.</p>
-                <a href="./ABOUTUS.html" class="button" target="_blank">SEE MORE</a>
+                <a href="./ABOUTUS.html" class="my__button" target="_blank">SEE MORE</a>
             </div>
             <div class="seccion__intro__columnas">
                 <h2 class="titulo__secundario">WHERE WE GO</h2>
                 <p class="parrafo">We can design the perfect plan through the most luxury Caribbean destinations for
                     you, according to
                     your specifical needs.</p>
-                <a href="./DESTINATIONS.html" class="button" target="_blank">SEE MORE</a>
+                <a href="./DESTINATIONS.html" class="my__button" target="_blank">SEE MORE</a>
             </div>
         </section>
         <section class="seccion__destinos">
@@ -82,14 +85,16 @@
             <h2 class="titulo__secundario">TESTIMONIALS</h2>
             <article class="seccion__testimonials__caja">
                 <h4 class="titulo__italic__bold">Family vacation, in Cancun</h4>
-                <p class="parrafo-italic"><em>“I think Cancun has the prettiest beach i’ve ever seen. Our trip was full of
+                <p class="parrafo-italic"><em>“I think Cancun has the prettiest beach i’ve ever seen. Our trip was full
+                        of
                         family activities
                         and incredible restaurants. The hotel was insane, with an amazing view. Everything was
                         perfect!”</em></p>
             </article>
             <article class="seccion__testimonials__caja">
                 <h4 class="titulo__italic__bold">Honeymoon, in Aruba</h4>
-                <p class="parrafo-italic"><em>“The hotel received us with a warm welcome, and the restaurants were exclusive
+                <p class="parrafo-italic"><em>“The hotel received us with a warm welcome, and the restaurants were
+                        exclusive
                         for us. Had long
                         walks around the beach with the love of my life, could’t expect more!”</em></p>
             </article>
@@ -114,9 +119,73 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <img class="footer" src="./IMG/Footer.png" alt="footer">
+    <footer class="my__footer">
+        <div class="container-fluid">
+            <div class="row p-5">
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">SIGN UP FOR OUR NEWSLETTER</p>
+                    <div class="d-grid gap-3">
+                        <div>
+                            <form action="
+                    " method="get" class="row">
+                                <div class="col"><label class="form__style__text" for="Name"> Name </label>
+                                    <input class="my__input" type="text" name="Name" id="Name" required>
+                                </div>
+                                <div class="col">
+                                    <label class="form__style__text" for="E-mail">E-mail</label>
+                                    <input class="my__input" type="email" name="E-mail" id="E-mail" required>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="my__button">SUBMIT</button>
+                    </div>
+                    </form>
+
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">GET IN TOUCH</p>
+                    <div class="d-grid gap-3">
+                        <div class="container__icon">
+                            <img src="./IMG/Telefono.png" alt="Phone icon">
+                            <a href="tel:+14072638591" class="form__style__text">1-407-2638591</a>
+                        </div>
+                        <div class="container__icon">
+                            <img src="./IMG/Email.png" alt="Email icon">
+                            <a href="mailto:Caribbean-Blue@gmail.com"
+                                class="form__style__text">Caribbean-Blue@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">FOLLOW US</p>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://www.instagram.com/"><iconify-icon icon="entypo-social:instagram-with-circle" width="50" height="50">
+                            </iconify-icon></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://m.facebook.com/" ><iconify-icon icon="entypo-social:facebook-with-circle" width="50" height="50">
+                            </iconify-icon></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/?lang=en"><iconify-icon icon="entypo-social:twitter-with-circle" width="50" height="50">
+                            </iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p></p>
+                </div>
+
+            </div>
+
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
