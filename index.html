@@ -44,15 +44,15 @@
             <p class="parrafo">Start your journey with Caribbean Blue!</p>
             <a href="./CONTACT.html" class="my__button" target="_blank">CONTACT</a>
         </section>
-        <section class="seccion__intro">
-            <div class="seccion__intro__columnas">
+        <section class="row seccion__intro">
+            <div class="col-xs-12 col-md-6 col-lg-6 seccion__intro__columnas">
                 <h2 class="titulo__secundario">WHAT WE DO</h2>
                 <p class="parrafo">We are a travel agency that offers our clients custom and unforgettable travel
                     experiences in the
                     Caribbean.</p>
                 <a href="./ABOUTUS.html" class="my__button" target="_blank">SEE MORE</a>
             </div>
-            <div class="seccion__intro__columnas">
+            <div class="col-xs-12 col-md-6 col-lg-6 seccion__intro__columnas">
                 <h2 class="titulo__secundario">WHERE WE GO</h2>
                 <p class="parrafo">We can design the perfect plan through the most luxury Caribbean destinations for
                     you, according to
@@ -82,22 +82,36 @@
             </div>
         </section>
         <section class="seccion__testimonials">
-            <h2 class="titulo__secundario">TESTIMONIALS</h2>
-            <article class="seccion__testimonials__caja">
-                <h4 class="titulo__italic__bold">Family vacation, in Cancun</h4>
-                <p class="parrafo-italic"><em>“I think Cancun has the prettiest beach i’ve ever seen. Our trip was full
-                        of
+            <div> <h2 class="titulo__secundario">TESTIMONIALS</h2></div>
+            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <h4 class="titulo__italic__bold">Family vacation, in Cancun</h4>
+                   <p class="parrafo__italic"><em>“I think Cancun has the prettiest beach i’ve ever seen. Our trip was full of
                         family activities
                         and incredible restaurants. The hotel was insane, with an amazing view. Everything was
                         perfect!”</em></p>
-            </article>
-            <article class="seccion__testimonials__caja">
-                <h4 class="titulo__italic__bold">Honeymoon, in Aruba</h4>
-                <p class="parrafo-italic"><em>“The hotel received us with a warm welcome, and the restaurants were
-                        exclusive
-                        for us. Had long
-                        walks around the beach with the love of my life, could’t expect more!”</em></p>
-            </article>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <h4 class="titulo__italic__bold">Honeymoon, in Aruba</h4>
+                   <p class="parrafo__italic"><em>“The hotel received us with a warm welcome, and the restaurants were exclusive
+                    for us. Had long
+                    walks around the beach with the love of my life, and the most exquisite food, could’t expect more! ”</em></p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <h4 class="titulo__italic__bold">Friends trip, in Jamaica</h4>
+                   <p class="parrafo__italic"><em>“We had more fun that we could've imagined! Everything was planned according to our tastes: group activities, nightlife, restaurants. I highly recommend diving and surfing, you can take very funny photos of your friends!</em></p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
         <section class="seccion__experiences">
             <div>
@@ -143,6 +157,30 @@
                     </form>
 
                 </div>
+                
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">FOLLOW US</p>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://www.instagram.com/">
+                                <iconify-icon icon="entypo-social:instagram-with-circle" width="50" height="50">
+                                </iconify-icon>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://m.facebook.com/">
+                                <iconify-icon icon="entypo-social:facebook-with-circle" width="50" height="50">
+                                </iconify-icon>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/?lang=en">
+                                <iconify-icon icon="entypo-social:twitter-with-circle" width="50" height="50">
+                                </iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
                     <p class="titulo__footer">GET IN TOUCH</p>
                     <div class="d-grid gap-3">
@@ -158,29 +196,12 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
-                    <p class="titulo__footer">FOLLOW US</p>
-                    <div class="row">
-                        <div class="col">
-                            <a href="https://www.instagram.com/"><iconify-icon icon="entypo-social:instagram-with-circle" width="50" height="50">
-                            </iconify-icon></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://m.facebook.com/" ><iconify-icon icon="entypo-social:facebook-with-circle" width="50" height="50">
-                            </iconify-icon></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://twitter.com/?lang=en"><iconify-icon icon="entypo-social:twitter-with-circle" width="50" height="50">
-                            </iconify-icon></a>
-                        </div>
-                    </div>
+                    <p class="titulo__footer">WANT TO JOIN US?</p>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Attatch your resume and we'll contact you!</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
-                    <p></p>
-                </div>
-
-            </div>
-
-        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

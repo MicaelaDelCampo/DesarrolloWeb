@@ -49,12 +49,16 @@ body {
 
 .nav__lista__items:hover{
     text-decoration: underline;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .nav__lista__items__links {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
+}
+
+.nav__lista__items__links:hover {
+    color: #FFFFFF;
 }
 
 .nav__banner__index {
@@ -141,30 +145,29 @@ body {
 }
 
 .titulo__italic__bold {
+    font-style: italic;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0%;
 }
 .parrafo {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 2rem;
     color: #000000;
     text-align: center;
     padding: 0%;
     margin: 0;
 }
 
-.parrafo-italic {
+.parrafo__italic {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
+    font-style:italic;
     font-weight: 300;
     font-size: 12px;
     color: #000000;
     text-align: center;
-    padding: 0%;
-    margin: 0;
 }
 
 .titulo__footer{
@@ -208,17 +211,16 @@ font-size: 1.5rem;
     display: flex;
     padding-inline: 8rem;
     background-color: rgba(226, 214, 196, 0.35);
-    flex-direction: column;
-    align-items: center;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .seccion__intro__columnas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
     width: 250px;
-    height: 2;
     padding: 2rem;
     border-style: solid;
     border-radius: 2rem;
@@ -226,6 +228,16 @@ font-size: 1.5rem;
     border-width: 0.5rem;
     align-content: center;
 }
+
+@media screen and (min-width: 768px) {
+    .seccion__intro__columnas{
+        border-color: #000000;
+    }
+    .parrafo{
+        font-size: 3rem;
+    }
+}
+
 
 .seccion__destinos {
     justify-content: center;
@@ -422,10 +434,16 @@ font-size: 1.5rem;
 
 a iconify-icon{
     color: #000000;
-    transition: transform .5s ease-in-out;
+    transition: transform .4s ease-in-out;
 }
 
 a iconify-icon:hover{
     color: #0CBAD3;
     transform: scale(1.1)
+}
+
+.carousel-item.active {
+    display:block;
+    padding-left: 10%;
+    padding-right: 10%;
 }
