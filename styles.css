@@ -18,7 +18,8 @@ body {
     opacity: 0.9;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    padding-inline-end: 5%;
+    padding-inline-start: 5%;
 }
 
 .nav__logo {
@@ -45,7 +46,7 @@ body {
 .nav__items {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     transition: transform .5s ease;
     text-align: center;
@@ -140,7 +141,7 @@ body {
 .titulo__italic__bold {
     font-style: italic;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1em;
     margin: 0%;
 }
 .parrafo {
@@ -175,7 +176,6 @@ font-size: 1.5rem;
 .my__button {
     border-radius: 20px;
     position: relative;
-    color: #FFFFFF;
     background-color: #0CBAD3;
     border: none;
     width: 80px;
@@ -184,11 +184,25 @@ font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1em;
-    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.my__button__text{
+    font-size: 1em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.my__button:hover{
+    color: #FFFFFF;
+    background-color: #07678F;
+    text-decoration: none;
+}
+
+.my__button__text:hover{
+    color: #FFFFFF;
 }
 .seccion__texto {
     padding: 4%;
@@ -202,8 +216,8 @@ font-size: 1.5rem;
     display: flex;
     background-color: rgba(226, 214, 196, 0.35);
     justify-content: center;
-    align-content: center;
-
+    align-items: center;
+    margin: 0%;
 }
 
 .seccion__intro__columnas {
@@ -218,6 +232,7 @@ font-size: 1.5rem;
     border-color: #FFFFFF;
     border-width: 0.5rem;
     align-content: center;
+
 }
 
 .seccion__destinos {
@@ -419,7 +434,7 @@ a iconify-icon{
 }
 
 a iconify-icon:hover{
-    color: #0CBAD3;
+    color: #07678F;
     transform: scale(1.1)
 }
 
@@ -433,6 +448,7 @@ a iconify-icon:hover{
     .nav__items{ 
         padding: 4%;
         width: 120px;
+        font-size: 1.2em;
     }
     .navbar-expand-sm .navbar-collapse{
         display: flex;
@@ -440,18 +456,26 @@ a iconify-icon:hover{
         justify-content: flex-end;
     }
     .nav__titulo{
-        font-size: 3em;
-        width: 300px;
-    left: 60px;
-    top: 160px;
+        font-size: 4em;
+        width: 400px;
+    left: 40px;
+    top: 190px;
     }
 
     .titulo__secundario{
         font-size: 2.5em;
     }
 
-    .parrafo__italic{
+    .titulo__italic__bold {
         font-size: 2em;
+        margin: 0%;
+    }
+
+    .parrafo__italic{
+        font-size: 2.5em;
+    }
+    .parrafo{
+        font-size: 2.5em;
     }
     .nav__banner__index {
         width: 100%;
@@ -461,4 +485,65 @@ a iconify-icon:hover{
         background-position-x: center;
         padding-top: 0%;
     }
+
+    .seccion__intro__columnas{
+        width: 300px;
+    }
+
+    .seccion__destinos__img{
+        width: 25rem;
+        height: 15rem;
+    }
+    .seccion__experiences__img {
+        width: 50rem;
+        height: 10rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    .nav__banner__index {
+        width: 100%;
+        height: 55rem;
+        background-image: url(./IMG/\(1\).jpg);
+        background-size: cover;
+        background-position-x: center;
+        padding-top: 0%;
+    }
+    .nav__titulo {
+        font-size: 5em;
+        width: 500px;
+        left: 40px;
+        top: 250px;
+}
+
+.titulo__secundario{
+    font-size: 3em;
+}
+
+.titulo__italic__bold {
+    font-size: 2em;
+    margin: 0%;
+}
+
+.parrafo__italic{
+    font-size: 2.5em;
+}
+
+.seccion__destinos__container {
+    grid-template-columns: .1fr .1fr .1fr .1fr;
+}
+.seccion__destinos__img{
+    width: 30rem;
+    height: 20rem;
+}
+.seccion__experiences__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.seccion__experiences__img {
+    width: 55rem;
+    height: 12rem;
+}
 }
