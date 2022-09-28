@@ -116,12 +116,12 @@ body {
 
 .nav__titulo__pages{
     position: absolute;
-    left: 20px;
-    top: 90px;
+    left: 290px;
+    top: 230px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: bold;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #ffffff;
     text-shadow: 2px 2px 8px #00000053;
     margin: 0%;
@@ -205,7 +205,8 @@ font-size: 1.5rem;
     color: #FFFFFF;
 }
 .seccion__texto {
-    padding: 4%;
+    padding: 2%;
+    padding-bottom: 0%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -311,7 +312,7 @@ font-size: 1.5rem;
 
 .video{
     margin: 4rem;
-    height: 20rem;
+    height: 15rem;
     width: 30rem;
 }
 
@@ -462,6 +463,12 @@ a iconify-icon:hover{
     top: 190px;
     }
 
+    .nav__titulo__pages{
+        font-size: 4em;
+        left: 40px;
+        top: 120px;
+    }
+
     .titulo__secundario{
         font-size: 2.5em;
     }
@@ -478,12 +485,11 @@ a iconify-icon:hover{
         font-size: 2.5em;
     }
     .nav__banner__index {
-        width: 100%;
         height: 40rem;
-        background-image: url(./IMG/\(1\).jpg);
-        background-size: cover;
-        background-position-x: center;
-        padding-top: 0%;
+    }
+
+    .nav__banner__destinations {
+        height: 40rem;
     }
 
     .seccion__intro__columnas{
@@ -495,20 +501,42 @@ a iconify-icon:hover{
         height: 15rem;
     }
     .seccion__experiences__img {
-        width: 50rem;
+        width: 45rem;
         height: 10rem;
     }
 
+    .video{
+        height: 30rem;
+        width: 50rem;
+    }
+
+    .seccion__hotels__list{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .seccion__hotels__list__container__blue{
+        height: 5rem;
+    }
+
+    .seccion__hotels__list__container__lgblue{
+        height: 5rem;
+    }
+
+    .seccion__somedestinations__container{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (min-width: 768px){
     .nav__banner__index {
-        width: 100%;
         height: 55rem;
-        background-image: url(./IMG/\(1\).jpg);
-        background-size: cover;
-        background-position-x: center;
-        padding-top: 0%;
+
+    }
+
+    .nav__banner__destinations {
+        height: 55rem;
+
     }
     .nav__titulo {
         font-size: 5em;
@@ -521,6 +549,10 @@ a iconify-icon:hover{
     font-size: 3em;
 }
 
+.nav__titulo__pages{
+    font-size: 5em;
+}
+
 .titulo__italic__bold {
     font-size: 2em;
     margin: 0%;
@@ -530,20 +562,44 @@ a iconify-icon:hover{
     font-size: 2.5em;
 }
 
+.seccion__intro{
+    gap: 10rem;
+}
 .seccion__destinos__container {
     grid-template-columns: .1fr .1fr .1fr .1fr;
 }
-.seccion__destinos__img{
-    width: 30rem;
-    height: 20rem;
-}
+
 .seccion__experiences__container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    grid-column-gap: 5rem;
 }
 
 .seccion__experiences__img {
-    width: 55rem;
     height: 12rem;
+}
+
+.video{
+    height: 40rem;
+    width: 70rem;
+}
+
+.seccion__hotels__list{
+    padding-top: 3rem;
+}
+
+.seccion__somedestinations__container{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.seccion__somedestinations__caja {
+    width: 330px;
+    height: 80px;
+}
+
+.seccion__somedestinations__img {
+    width: 330px;
+    height: 80px;
 }
 }
