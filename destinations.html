@@ -15,25 +15,35 @@
 
 <body>
     <header class="header nav__banner__destinations">
-        <nav class="navbar navbar-expand-sm navbar-dark nav">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-sm fixed-top nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
-            <a href="./index.html" class="nav__marca"><img class="navbar-brand nav__logo" src="./IMG/Logo.png" alt="Logo of Caribbean Blue">Caribbean Blue</a>
-            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-                <ul class="navbar-nav text-center nav__lista">
-                    <li class="nav-item nav__items"> <a href="./index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item nav__items"><a href="./destinations.html"
-                            class="nav-link active">DESTINATIONS</a></li>
-                    <li class="nav-item nav__items"><a href="./experiences.html"
-                            class="nav-link">EXPERIENCES</a></LI>
-                    <li class="nav-item nav__items"><a href="./aboutus.html" class="nav-link">ABOUT US</a>
+              <a href="./index.html" class="nav__marca"><img class="navbar-brand nav__logo" src="./IMG/Logo.png" alt="Logo of Caribbean Blue">Caribbean Blue</a>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Caribbean Blue</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav__lista">
+                    <li class="nav-item">
+                      <a class="nav-link nav__items" href="./index.html">HOME</a>
                     </li>
-                    <li class="nav-item nav__items"><a href="./contact.html" class="nav-link">CONTACT</a>
+                    <li class="nav-item">
+                        <a class="nav-link  active nav__items" href="./destinations.html">DESTINATIONS</a>
                     </li>
-                </ul>
+                    <li class="nav-items">
+                        <a class="nav-link nav__items" href="./aboutus.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav__items" href="./contact.html">CONTACT</a>
+                    </li>
+                </div>
+              </div>
             </div>
-        </nav>
+          </nav>
         <h1 class="nav__titulo__pages">DESTINATIONS<h1>
 
     </header>
