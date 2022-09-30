@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Caribbean Blue</title>
-    <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Caribbean Blue</title>
+        <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div>
-                <ul class="nav__lista">
-                    <li class="nav__lista__items"> <a href="./index.html" class="nav__lista__items__links">HOME</a></li>
-                    <li class="nav__lista__items"><a href="./destinations.html"
-                            class="nav__lista__items__links">DESTINATIONS</a></li>
-                    <li class="nav__lista__items"><a href="./experiences.html"
-                            class="nav__lista__items__links">EXPERIENCES</a></LI>
-                    <li class="nav__lista__items"><a href="./aboutus.html" class="nav__lista__items__links">ABOUT US</a>
+    <header class="header nav__banner__experiences">
+        <nav class="navbar navbar-expand-sm fixed-top nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a href="./index.html" class="nav__marca"><img class="navbar-brand nav__logo" src="./IMG/Logo.png" alt="Logo of Caribbean Blue">Caribbean Blue</a>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Caribbean Blue</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav__lista">
+                    <li class="nav-item">
+                      <a class="nav-link nav__items" href="./index.html">HOME</a>
                     </li>
-                    <li class="nav__lista__items"><a href="./contact.html" class="nav__lista__items__links">CONTACT</a>
+                    <li class="nav-item">
+                        <a class="nav-link nav__items" href="./destinations.html">DESTINATIONS</a>
                     </li>
-                </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active nav__items" id="activo" href="./experiences.html">EXPERIENCES</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav__items" href="./aboutus.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link nav__items" href="./contact.html">CONTACT</a>
+                    </li>
+                </div>
+              </div>
             </div>
-            <a href="./index.html"><img class="nav__logo" src="./IMG/Logo.png" alt="Logo of Caribbean Blue"></a>
-        </nav>
-
-        <DIV class="nav__banner__experiences"></DIV>
-        <h1 class="nav__titulo__pages">EXPERIENCES<h1>
+          </nav>
+          <div class="titulo__pages__container">
+        <h1 class="titulo__pages">EXPERIENCES<h1>
+        </div>
 
     </header>
 
@@ -102,9 +122,83 @@
             </div>
         </section>
     </main>
-    <footer class="Frame6">
-        <img class="footer" src="./IMG/Footer.png" alt="footer">
+    <footer class="my__footer">
+        <div class="container-fluid">
+            <div class="row p-5">
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">SIGN UP FOR OUR NEWSLETTER</p>
+                    <div class="d-grid gap-3">
+                        <div>
+                            <form action="
+                    " method="get" class="row">
+                                <div class="col"><label class="form__style__text" for="Name"> Name </label>
+                                    <input class="my__input" type="text" name="Name" id="Name" required>
+                                </div>
+                                <div class="col">
+                                    <label class="form__style__text" for="E-mail">E-mail</label>
+                                    <input class="my__input" type="email" name="E-mail" id="E-mail" required>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="email" class="my__button my__button__text">SUBMIT</button>
+                    </div>
+                    </form>
+
+                </div>
+                
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">FOLLOW US</p>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://www.instagram.com/">
+                                <iconify-icon icon="entypo-social:instagram-with-circle" width="50" height="50">
+                                </iconify-icon>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://m.facebook.com/">
+                                <iconify-icon icon="entypo-social:facebook-with-circle" width="50" height="50">
+                                </iconify-icon>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/?lang=en">
+                                <iconify-icon icon="entypo-social:twitter-with-circle" width="50" height="50">
+                                </iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">GET IN TOUCH</p>
+                    <div class="d-grid gap-3">
+                        <div class="container__icon">
+                            <img src="./IMG/Telefono.png" alt="Phone icon">
+                            <a href="tel:+14072638591" class="form__style__text">1-407-2638591</a>
+                        </div>
+                        <div class="container__icon">
+                            <img src="./IMG/Email.png" alt="Email icon">
+                            <a href="mailto:Caribbean-Blue@gmail.com"
+                                class="form__style__text">Caribbean-Blue@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 text-center pb-5">
+                    <p class="titulo__footer">WANT TO JOIN US?</p>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Attatch your resume and we'll contact you!</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
+            <script src="simpleParallax.js"></script>
 </body>
 
 </html>
