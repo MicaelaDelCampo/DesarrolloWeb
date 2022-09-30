@@ -60,8 +60,10 @@ body {
     color: #07678F;
 }
 
-.active{
-    color: #0CBAD3 !important;
+#activo{
+    color: #07678F;
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
 }
 
 .nav__lista{
@@ -94,7 +96,6 @@ body {
     background-size: cover;
     background-position-x: center;
     padding-top: 0%;
-    
 }
 
 .nav__banner__aboutus{
@@ -151,6 +152,7 @@ padding-left: 2rem;
     color: #ffffff;
     text-shadow: 2px 2px 10px #00000053;
     margin: 0%;
+    padding-right: 2rem;
 }
 
 .titulo__secundario {
@@ -482,9 +484,13 @@ a iconify-icon:hover{
         transform: scale(1.1);
         color: #ffffff;
     }
+    
+    .titulo__pages{
+        font-size: 3em;
+    }
 
-    .active{
-        color: #07678F !important;
+    .active>a{
+        color: #07678F;
         text-decoration: overline ;
         text-decoration-thickness: 2px;
     }
