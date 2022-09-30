@@ -55,7 +55,6 @@ body {
 }
 
 .nav__items:hover{
-    text-decoration: underline;
     transform: scale(1.1);
     color: #07678F;
 }
