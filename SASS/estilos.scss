@@ -427,6 +427,16 @@ font-size: 1.5rem;
     height: 60px;
 }
 
+.activities__img{
+    @extend .seccion__experiences__img;
+    transition: transform .5s ease-in-out;
+}
+
+.activities__img:hover{
+    transform: scale(1.1);
+}
+   
+
 .titulo__card{
     @extend .titulo__secundario;
     font-size: 1.5rem;
