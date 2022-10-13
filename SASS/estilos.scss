@@ -73,7 +73,7 @@ body {
 
 .nav__banner__index {
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     background-image: url(../IMG/Playa.jpg);
     background-size: cover;
     background-position-x: center;
@@ -86,7 +86,7 @@ body {
 
 .nav__banner__experiences{
 @extend .nav__banner__index;
-    background-image: url(../IMG/Experiences.png);
+    background-image: url(../IMG/Experiences2.png);
 }
 
 .nav__banner__aboutus{
@@ -111,8 +111,8 @@ padding-left: 2rem;
     display: block;
     color: #FFFFFF;
     width: 250px;
-    left: 10px;
-    top: 210px;
+    left: 15px;
+    top: 190px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: bold;
     font-weight: 700;
@@ -131,7 +131,7 @@ padding-left: 2rem;
     flex-wrap: nowrap;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 20rem;
+    height: 5rem;
 }
 
 .titulo__pages{
@@ -141,7 +141,7 @@ padding-left: 2rem;
     font-weight: 700;
     font-size: 2.5em;
     color: #ffffff;
-    text-shadow: 2px 2px 10px #00000053;
+    text-shadow: 2px 2px 20px #00000092;
     margin: 0%;
     padding-right: 2rem;
 }
@@ -224,7 +224,7 @@ font-size: 1.5rem;
     color: #FFFFFF;
 }
 .seccion__texto {
-    padding: 2%;
+    padding: 4%;
     padding-bottom: 0%;
     position: relative;
     display: flex;
@@ -404,12 +404,17 @@ font-size: 1.5rem;
     color: #FFFFFF;
 }
 
+.seccion__somedestinations{
+    padding: 4%;
+}
+
 .seccion__somedestinations__container{
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
     justify-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .seccion__somedestinations__caja{
@@ -430,6 +435,16 @@ font-size: 1.5rem;
 .parrafo__card{
     @extend .parrafo__italic;
     font-weight: 500;
+}
+
+.seccion__activities{
+    @extend .seccion__experiences;
+    background-color: rgba(226, 214, 196, 0.35);
+}
+
+.seccion__cruises{
+    @extend .seccion__hotels;
+    background-color: #FFFFFF;
 }
 
 .my__footer {

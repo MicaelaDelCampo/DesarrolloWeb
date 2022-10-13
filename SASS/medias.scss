@@ -29,12 +29,11 @@
     }
     .titulo__pages__container{
         display: flex;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        justify-content: flex-start;
-        height: 20rem;
-        padding-top: 3rem;
-        padding-left: 2rem;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 3rem;
     }
 
     .titulo__pages{

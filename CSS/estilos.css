@@ -72,7 +72,7 @@ body {
 
 .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences {
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   background-image: url(../IMG/Playa.jpg);
   background-size: cover;
   background-position-x: center;
@@ -84,7 +84,7 @@ body {
 }
 
 .nav__banner__experiences {
-  background-image: url(../IMG/Experiences.png);
+  background-image: url(../IMG/Experiences2.png);
 }
 
 .nav__banner__aboutus {
@@ -109,8 +109,8 @@ body {
   display: block;
   color: #FFFFFF;
   width: 250px;
-  left: 10px;
-  top: 210px;
+  left: 15px;
+  top: 190px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -130,7 +130,7 @@ body {
   flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: flex-end;
-  height: 20rem;
+  height: 5rem;
 }
 
 .titulo__pages {
@@ -140,7 +140,7 @@ body {
   font-weight: 700;
   font-size: 2.5em;
   color: #ffffff;
-  text-shadow: 2px 2px 10px #00000053;
+  text-shadow: 2px 2px 20px #00000092;
   margin: 0%;
   padding-right: 2rem;
 }
@@ -224,7 +224,7 @@ body {
 }
 
 .seccion__texto {
-  padding: 2%;
+  padding: 4%;
   padding-bottom: 0%;
   position: relative;
   display: flex;
@@ -306,7 +306,7 @@ body {
   padding-left: 5%;
 }
 
-.seccion__experiences {
+.seccion__experiences, .seccion__activities {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -336,7 +336,7 @@ body {
   padding-bottom: 2rem;
 }
 
-.seccion__hotels {
+.seccion__hotels, .seccion__cruises {
   background-color: rgba(226, 214, 196, 0.35);
   justify-content: center;
   align-content: center;
@@ -401,12 +401,17 @@ body {
   color: #FFFFFF;
 }
 
+.seccion__somedestinations {
+  padding: 4%;
+}
+
 .seccion__somedestinations__container {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr;
   justify-items: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .seccion__somedestinations__caja {
@@ -425,6 +430,14 @@ body {
 
 .parrafo__card {
   font-weight: 500;
+}
+
+.seccion__activities {
+  background-color: rgba(226, 214, 196, 0.35);
+}
+
+.seccion__cruises {
+  background-color: #FFFFFF;
 }
 
 .my__footer {
@@ -498,12 +511,11 @@ a iconify-icon:hover {
   }
   .titulo__pages__container {
     display: flex;
+    width: 100%;
     flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: flex-start;
-    height: 20rem;
+    justify-content: flex-end;
     padding-top: 3rem;
-    padding-left: 2rem;
   }
   .titulo__pages {
     font-size: 4em;
