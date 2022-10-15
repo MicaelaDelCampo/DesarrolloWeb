@@ -70,7 +70,7 @@ body {
   align-items: center;
 }
 
-.nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about {
+.nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about, .nav__banner__contact {
   width: 100%;
   height: 40rem;
   background-image: url(../IMG/Playa.jpg);
@@ -89,6 +89,10 @@ body {
 
 .nav__banner__about {
   background-image: url(../IMG/abooutus.jpg);
+}
+
+.nav__banner__contact {
+  background-image: url(../IMG/Contact.jpg);
 }
 
 .nav__titulo__container {
@@ -186,7 +190,7 @@ body {
   font-size: 1.5rem;
 }
 
-.my__button {
+.my__button, .my__button__mail {
   border-radius: 20px;
   position: relative;
   background-color: #0CBAD3;
@@ -208,7 +212,13 @@ body {
   color: #FFFFFF;
 }
 
-.my__button:hover {
+.my__button__mail {
+  width: 180px;
+  margin: 0%;
+  margin-top: 1%;
+}
+
+.my__button:hover, .my__button__mail:hover {
   color: #FFFFFF;
   background-color: #07678F;
   text-decoration: none;
@@ -218,13 +228,17 @@ body {
   color: #FFFFFF;
 }
 
-.seccion__texto {
+.seccion__texto, .seccion__texto__color {
   padding: 4%;
-  padding-bottom: 0%;
+  padding-bottom: 4%;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.seccion__texto__color {
+  background-color: rgba(226, 214, 196, 0.35);
 }
 
 .seccion__intro {
@@ -322,7 +336,7 @@ body {
 }
 
 .video {
-  margin: 4rem;
+  margin-top: 1rem;
   height: 15rem;
   width: 30rem;
 }
@@ -536,7 +550,7 @@ a iconify-icon:hover {
   .parrafo {
     font-size: 2.5em;
   }
-  .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about {
+  .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about, .nav__banner__contact {
     height: 40rem;
   }
   .nav__banner__destinations {
@@ -583,7 +597,7 @@ a iconify-icon:hover {
     font-size: 1.4em;
     color: #FFFFFF;
   }
-  .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about {
+  .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about, .nav__banner__contact {
     height: 55rem;
   }
   .nav__banner__destinations {
