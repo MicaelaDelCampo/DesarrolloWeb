@@ -148,7 +148,6 @@ padding-left: 2rem;
     position: relative;
     font-family: $font-primary;
     font-weight: bolder;
-    font-weight: 700;
     font-size: $size-large;
     color: #ffffff;
     text-shadow: 2px 2px 20px $color-shadow;
@@ -159,7 +158,7 @@ padding-left: 2rem;
 .titulo__secundario {
     font-family: $font-primary;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: $size-minlarge;
     color: $color-primary;
     text-align: center;

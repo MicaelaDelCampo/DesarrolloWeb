@@ -145,7 +145,6 @@ body {
   position: relative;
   font-family: "Mohave", sans-serif;
   font-weight: bolder;
-  font-weight: 700;
   font-size: 2.5em;
   color: #ffffff;
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.226);
@@ -156,7 +155,7 @@ body {
 .titulo__secundario, .titulo__card {
   font-family: "Mohave", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 2em;
   color: #0CBAD3;
   text-align: center;
