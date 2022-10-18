@@ -133,6 +133,7 @@ padding-left: 2rem;
 .nav__titulo__color {
     color: $color-secondary;
     font-family: $font-alternative;
+    font-weight: 500;
    font-size: $size-minlarge;
     margin: 0%;
 }
@@ -148,7 +149,7 @@ padding-left: 2rem;
     position: relative;
     font-family: $font-primary;
     font-weight: bolder;
-    font-size: $size-large;
+    font-size: $size-extralarge;
     color: #ffffff;
     text-shadow: 2px 2px 20px $color-shadow;
     margin: 0%;
@@ -159,7 +160,7 @@ padding-left: 2rem;
     font-family: $font-primary;
     font-style: normal;
     font-weight: bolder;
-    font-size: $size-minlarge;
+    font-size: $size-large;
     color: $color-primary;
     text-align: center;
     margin: 0%;
