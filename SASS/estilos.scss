@@ -503,7 +503,8 @@ a iconify-icon{
 }
 
 .form__labels{
-    font-size: $size-medium;
+    font-size: $size-minlarge;
+    font-family: $font-primary;
     color: $color-secondary;
     font-weight: bold;
 }

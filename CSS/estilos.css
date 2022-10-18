@@ -498,7 +498,8 @@ a iconify-icon:hover {
 }
 
 .form__labels, .form__labels__color {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: "Mohave", sans-serif;
   color: #07678F;
   font-weight: bold;
 }
