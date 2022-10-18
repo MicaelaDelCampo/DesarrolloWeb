@@ -88,6 +88,16 @@
   .parrafo__card {
     font-size: 1rem;
   }
+  .form__labels {
+    font-size: 2em;
+  }
+  .form__labels__color {
+    font-size: 1em;
+  }
+  .comments {
+    width: 50rem;
+    height: 10rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -169,5 +179,12 @@
   }
   .parrafo__card {
     font-size: 1rem;
+  }
+  .form__check {
+    font-size: 1.5rem;
+  }
+  .comments {
+    width: 70rem;
+    height: 10rem;
   }
 }

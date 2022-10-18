@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Caribbean Blue</title>
+    <meta name="description" content="Caribbean Blue is a prestigious travel agency that offers many high quality trips trough the Caribbean">
+   <meta name="keywords" content="TRAVEL, AGENCY, TRIP, JOURNEY, CARIBBEAN, VACATIONS, HOLIDAYS">
+    <title>Caribbean Blue | Contact</title>
     <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -63,54 +65,147 @@
         <section class="seccion__texto">
             <div>
                 <h2 class="titulo__secundario">CONTACT</h2>
-                <p class="parrafo">As soon as we receive this form, a member of our travel advisor team will contact you to gather more information about your travel plans. We are excited to get to know you and help you plan your next getaway!</p>
+                <p class="parrafo">As soon as we receive this form, a member of our travel advisor team will contact you
+                    to gather more information about your travel plans. We are excited to get to know you and help you
+                    plan your next getaway!</p>
             </div>
         </section>
-        <section>
-            <div>
-                <form action="" method="get">
-                    <label for="First Name">First Name </label>
-                    <input type="text" name="First Name" id="First Name" required>
-                    <label for="Last Name">Last Name</label>
-                    <input type="Last Name" name="Last Name" id="Last Name" required> <br>
-                    <label for="Phone Number">Phone Number</label>
-                    <input type="tel" name="Phone Number" id="Phone Number" required>
-                    <label for="E-mail">E-mail</label>
-                    <input type="email" name="E-mail" id="E-mail" required> <br>
-                    <label for="Travel Type">Travel Type</label>
-                    <select name="Travel Type">
-                        <option value="Only two">ONLY TWO</option>
-                        <option value="Family">FAMILY</option>
-                        <option value="Pet Friendly">PET FRIENDLY</option>
-                        <option value="Friends">FRIENDS</option>
-                        <option value="Honeymoon">HONEYMOON</option>
-                        <option value="Single player">SINGLE PLAYER</option>
-                    </select> <br>
-                    <label>HOW DO YOU PREFER TO BE CONTACTED?</label>
-                    <input type="radio" name="how" value="Phone"> PHONE
-                    <input type="radio" name="how" value="E-mail"> E-MAIL <br>
-                    <label>ESTIMATED DEPARTURE DAY</label>
-                    <input type="date" name="ESTIMATED DEPARTURE DAY" id="ESTIMATED DEPARTURE DAY"> <br>
-                    <label>DESTINATIONS YOU ARE INTERESTED IN</label>
-                    <input type="checkbox" name="where" value="Aruba"> Aruba
-                    <input type="checkbox" name="where" value="Antigua"> Antigua
-                    <input type="checkbox" name="where" value="Barbados"> Barbados
-                    <input type="checkbox" name="where" value="Bahamas"> Bahamas
-                    <input type="checkbox" name="where" value="Curacao"> Curacao
-                    <input type="checkbox" name="where" value="Cancun"> Cancun
-                    <input type="checkbox" name="where" value="Dominica"> Dominica
-                    <input type="checkbox" name="where" value="Jamaica"> Jamaica
-                    <input type="checkbox" name="where" value="Punta Cana"> Punta Cana <br>
-                    <label>PLEASE PROVIDE US WITH MORE INFORMATION DESCRIBING YOUR IDEAL TRIP. SPECIFY DESTINATIONS OF
-                        INTERES, SPECIAL ACTIVITIES, HOTELS, CRUISE LINES, BUDGET RANGE, AND WHERE YOU ARE AT IN YOUR
-                        VACATION PLANNING PROCESS.
-                    </label> <br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-                    <input type="submit" value="submit">
+        <section class="seccion__texto__color">
+            <div class="justify-content-center align-items-center">
+                <form action="" method="get" class="row m-0 g-5 justify-content-center text-center p-4">
+                    <div class="col-sm-6">
+                        <label for="First Name" class="form__labels ">First Name </label>
+                        <input class="form__input" type="text" name="First Name" id="First Name" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form__labels" for="Last Name">Last Name</label>
+                        <input type="Last Name" name="Last Name" id="Last Name" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form__labels" for="Phone Number">Phone Number</label>
+                        <input type="tel" name="Phone Number" id="Phone Number" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form__labels" for="E-mail">E-mail</label>
+                        <input type="email" name="E-mail" id="E-mail" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form__labels" for="Travel Type">Travel Type</label>
+                        <select name="Travel Type">
+                            <option value="Only two">ONLY TWO</option>
+                            <option value="Family">FAMILY</option>
+                            <option value="Pet Friendly">PET FRIENDLY</option>
+                            <option value="Friends">FRIENDS</option>
+                            <option value="Honeymoon">HONEYMOON</option>
+                            <option value="Single player">SINGLE PLAYER</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form__labels">Estimated departure day</label>
+                        <input type="date" name="ESTIMATED DEPARTURE DAY" id="ESTIMATED DEPARTURE DAY">
+                    </div>
+                    <div class="text-center">
+                        <h5 class="form__labels">Destinations of interest</h5>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                            <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">ARUBA</label>
+                            </div>
+                            <div class="col-xs-6  col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">ANTIGUA</label>
+                            </div>
+                            <div class="col-xs-6  col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">BARBADOS</label>
+                            </div>
+                            <div class="col-xs-6  col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">BAHAMAS</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">CURACAO</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">CANCUN</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">DOMINICA</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">JAMAICA</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">GRANADA</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">ST. LUCIA</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">BELICE</label>
+                            </div>
+                            <div class="col-xs-6 col-md-2 form__check__container">
+                                <input class="form-check-input" type="checkbox" name="where" value="Aruba"> <label
+                                for="Aruba" class="form__check">BARBUDA</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <label class="form__labels">Please provide us with more information describing your ideal trip.
+                            Specify destinaions of interest, cruise lines, hotels, special activities, budget range, and
+                            where you are at in you vacation planning process
+                        </label> <br>
+                        <textarea  cols="50" rows="10" class="rounded-4 comments"></textarea>
+                    </div>
+                    <input type="submit" value="SUBMIT" class="my__button my__button__text">
                 </form>
             </div>
-
-
+        </section>
+        <section class="seccion__texto">
+            <div>
+                <h2 class="titulo__secundario">FAQs</h2>
+                <p class="parrafo">Just in case you have more doubts about what we do, here are some of the most popular questions!
+                </p>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed form__labels__color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed form__labels__color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed form__labels__color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
     <footer class="my__footer">
@@ -179,16 +274,21 @@
                     <p class="titulo__footer">WANT TO JOIN US?</p>
                     <div class="mb-3">
                         <label for="formFile" class="form-label">Attatch your resume and we'll contact you!</label>
-                        <input class="form-control" type="file" id="formFile">
+                        <div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04"
+                                aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <button class="btn btn-outline-secondary" type="button"
+                                id="inputGroupFileAddon04">SEND</button>
+                        </div>
                     </div>
                 </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
     <script src="simpleParallax.js"></script>
 </body>
