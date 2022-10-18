@@ -170,7 +170,7 @@ padding-left: 2rem;
 .titulo__italic__bold {
     font-style: italic;
     font-weight: bold;
-    font-size: $size-xsmall;
+    font-size: $size-medium;
     margin: 0%;
 }
 .parrafo {
@@ -185,10 +185,10 @@ padding-left: 2rem;
 }
 
 .parrafo__italic {
-    font-family: $font-primary;
+    font-family: $font-main;
     font-style:italic;
-    font-weight: 300;
-    font-size: $size-medium;
+    font-weight: 400;
+    font-size: $size-small;
     color: $color-black;
     text-align: center;
 }
@@ -515,7 +515,7 @@ a iconify-icon{
 }
 
 .form__check{
-    font-size: $size-small;
+    font-size: $size-xsmall;
     font-family: $font-primary;
 }
 
