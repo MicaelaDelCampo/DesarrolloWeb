@@ -3,7 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /*VARIABLES*/
-/*MAIN*/
+/*COLORS*/
+/*FONTS*/
+/*SIZES*/
+/*MAIN&FOOTER*/
 html {
   font-size: 62.5%;
 }
@@ -734,21 +737,5 @@ a iconify-icon:hover {
   .comments {
     width: 70rem;
     height: 10rem;
-  }
-}
-
-@media (min-width: 1400px) {
-  .nav__items {
-    font-size: 2em;
-    color: #FFFFFF;
-  }
-  .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about, .nav__banner__contact {
-    height: 65rem;
-  }
-  .nav__banner__destinations {
-    height: 65rem;
-  }
-  .nav__banner__experiences {
-    height: 65rem;
   }
 }
