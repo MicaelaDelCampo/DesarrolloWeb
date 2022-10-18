@@ -1,3 +1,8 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /*VARIABLES*/
 @import 'variables';
 
@@ -116,20 +121,19 @@ padding-left: 2rem;
     width: 250px;
     left: 15px;
     top: 170px;
-    font-family: $font-titles;
-    font-style: bold;
-    font-weight: 700;
+    font-family: $font-primary;
+    font-weight: bolder;
     font-size: $size-large;
     color: $color-white;
-    text-shadow: 2px 2px 8px $color-shadow;
+    color: #ffffff;
+    text-shadow: 2px 2px 20px $color-shadow;
     margin: 0%;
 }
 
 .nav__titulo__color {
     color: $color-secondary;
-    text-shadow: 2px 2px 8px $color-shadow;
     font-family: $font-alternative;
-   font-size: $size-small;
+   font-size: $size-minlarge;
     margin: 0%;
 }
 .titulo__pages__container{
@@ -143,7 +147,7 @@ padding-left: 2rem;
 .titulo__pages{
     position: relative;
     font-family: $font-primary;
-    font-style: bold;
+    font-weight: bolder;
     font-weight: 700;
     font-size: $size-large;
     color: #ffffff;

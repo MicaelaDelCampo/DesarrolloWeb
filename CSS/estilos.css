@@ -1,3 +1,7 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /*VARIABLES*/
 /*MAIN*/
 html {
@@ -113,20 +117,19 @@ body {
   width: 250px;
   left: 15px;
   top: 170px;
-  font-family: "Mostin", sans-serif;
-  font-style: bold;
-  font-weight: 700;
+  font-family: "Mohave", sans-serif;
+  font-weight: bolder;
   font-size: 2.5em;
   color: #ffffff;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
+  color: #ffffff;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.53);
   margin: 0%;
 }
 
 .nav__titulo__color {
   color: #07678F;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.53);
-  font-family: "Qamila", sans-serif;
-  font-size: 1.2em;
+  font-family: "Alex Brush", cursive;
+  font-size: 2em;
   margin: 0%;
 }
 
@@ -141,7 +144,7 @@ body {
 .titulo__pages {
   position: relative;
   font-family: "Mohave", sans-serif;
-  font-style: bold;
+  font-weight: bolder;
   font-weight: 700;
   font-size: 2.5em;
   color: #ffffff;
@@ -646,7 +649,7 @@ a iconify-icon:hover {
 
 @media (min-width: 1200px) {
   .nav__items {
-    font-size: 1.4em;
+    font-size: 2em;
     color: #FFFFFF;
   }
   .nav__banner__index, .nav__banner__destinations, .nav__banner__experiences, .nav__banner__about, .nav__banner__contact {
