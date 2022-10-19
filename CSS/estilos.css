@@ -739,6 +739,9 @@ a iconify-icon:hover {
   .form__check {
     font-size: 1.5rem;
   }
+  .form__check__container {
+    align-items: baseline;
+  }
   .comments {
     width: 70rem;
     height: 10rem;
