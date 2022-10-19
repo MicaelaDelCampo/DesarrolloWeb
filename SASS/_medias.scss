@@ -117,6 +117,14 @@
         width: 50rem;
         height: 10rem;
     }
+
+    .seccion__experiences__container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .activities__img{
+        width: 30rem;
+    }
 }
 
 @media (min-width: 1200px){
@@ -223,5 +231,9 @@ padding-left: 2rem}
 .comments{
     width: 70rem;
     height: 10rem;
+}
+
+.activities__img{
+    width: 40rem;
 }
 }
