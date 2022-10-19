@@ -515,22 +515,21 @@ a iconify-icon{
 }
 
 .form__check{
-    font-size: $size-xsmall;
+    font-size: $size-small;
     font-family: $font-primary;
 }
 
 .form__check__container{
     height: 2rem;
-    align-items: flex-end;
     display: flex;
     gap: 1rem;
     padding-left: 3rem;
+    align-items: flex-end;
 }
 
 .form-check-input {
     width: 1.5em;
     height: 1.5em;
-    vertical-align: sub;
     background-color: $color-alternative-blue;
 }
 

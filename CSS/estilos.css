@@ -509,22 +509,21 @@ a iconify-icon:hover {
 }
 
 .form__check {
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Mohave", sans-serif;
 }
 
 .form__check__container {
   height: 2rem;
-  align-items: flex-end;
   display: flex;
   gap: 1rem;
   padding-left: 3rem;
+  align-items: flex-end;
 }
 
 .form-check-input {
   width: 1.5em;
   height: 1.5em;
-  vertical-align: sub;
   background-color: #18768921;
 }
 
