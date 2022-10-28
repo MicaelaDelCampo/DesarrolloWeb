@@ -350,7 +350,12 @@ margin-top: 1%;
 .video{
     margin-top: 1rem;
     height: 15rem;
-    width: 30rem;
+    width: 35rem;
+}
+
+.img__aboutus{
+    height: 15rem;
+    width: 35rem;
 }
 
 .seccion__epigrafe__video{
@@ -546,6 +551,14 @@ font-size: $size-xsmall;
     display: flex;
     flex-direction: column;
     margin: auto;
+}
+
+.faqs__content{
+    font-family: $font-main;
+    font-size: $size-medium;
+    color: $color-black;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .comments{
